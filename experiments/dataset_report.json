@@ -1,0 +1,35 @@
+{
+  "train": {
+    "total": 18496,
+    "classes": {
+      "yes": 3228,
+      "no": 3130,
+      "up": 2948,
+      "down": 3134,
+      "left": 3037,
+      "right": 3019
+    }
+  },
+  "validation": {
+    "total": 2245,
+    "classes": {
+      "yes": 397,
+      "no": 406,
+      "up": 350,
+      "down": 377,
+      "left": 352,
+      "right": 363
+    }
+  },
+  "test": {
+    "total": 2463,
+    "classes": {
+      "yes": 419,
+      "no": 405,
+      "up": 425,
+      "down": 406,
+      "left": 412,
+      "right": 396
+    }
+  }
+}

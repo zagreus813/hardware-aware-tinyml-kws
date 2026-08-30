@@ -1,0 +1,7 @@
+{
+  "source_model": "/home/zag-20/projects/tinyml-esp32/experiments/ds_cnn_v1.h5",
+  "representative_samples": 500,
+  "float_tflite_bytes": 23200,
+  "int8_tflite_bytes": 14416,
+  "size_reduction_fraction": 0.37862068965517237
+}
