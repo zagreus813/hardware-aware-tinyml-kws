@@ -1,5 +1,19 @@
 # Hardware-Aware TinyML Keyword Spotting
 
+## Current Baseline Results
+
+The initial baseline model is a fully connected neural network used as a reference
+for evaluating more hardware-aware TinyML architectures.
+
+| Metric | Validation |
+|---|---:|
+| Accuracy | 83.2% |
+| Model Parameters | 163,974 |
+| Estimated Model Size | ~640.5 KB |
+
+The baseline results provide a reference point for subsequent experiments involving
+model compression, quantization, and hardware-aware optimization.
+
 A research-oriented TinyML project for six-class speech command recognition, combining digital signal processing, neural network design, model compression, and integer-only deployment preparation.
 
 The project investigates the trade-off between classification accuracy, model size, compute, and memory for resource-constrained embedded systems. The final software-side candidate is a depthwise-separable CNN (DS-CNN) converted to fully integer INT8 TensorFlow Lite.
